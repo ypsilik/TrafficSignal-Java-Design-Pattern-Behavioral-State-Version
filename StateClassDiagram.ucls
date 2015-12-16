@@ -5,7 +5,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalStateName.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="174" y="88"/>    
+    <position height="-1" width="-1" x="125" y="89"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalGreenState.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1021" y="88"/>    
+    <position height="-1" width="-1" x="771" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -27,7 +27,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalState.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="602" y="263"/>    
+    <position height="-1" width="-1" x="312" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalUserInterface.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="602" y="-73"/>    
+    <position height="-1" width="-1" x="771" y="-74"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,7 +49,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignal.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="602" y="88"/>    
+    <position height="-1" width="-1" x="773" y="88"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -60,7 +60,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalContext.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="172" y="263"/>    
+    <position height="-1" width="-1" x="428" y="107"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -71,7 +71,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/Main.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="328" y="-64"/>    
+    <position height="-1" width="-1" x="434" y="-4"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -82,7 +82,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalOrangeState.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1021" y="263"/>    
+    <position height="-1" width="-1" x="493" y="527"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
     project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
     file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/state/TrafficSignalRedState.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1021" y="431"/>    
+    <position height="-1" width="-1" x="172" y="527"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -101,49 +101,65 @@
     </display>  
   </class>  
   <association id="10">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="11" name="name"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <realization id="16">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
-  </realization>  
-  <association id="17">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="18" name="context"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="20">    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="21" name="state"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
+      <attribute id="11" name="state">        
+        <position height="19" width="34" x="453" y="228"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="17" width="25" x="501" y="236"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="23">    
+  <generalization id="13">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="14">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="15" name="context">        
+        <position height="19" width="50" x="346" y="156"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="17" width="25" x="410" y="161"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <dependency id="20">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="name">        
+        <position height="0" width="0" x="-49" y="1"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1">        
+        <position height="17" width="25" x="214" y="170"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="24">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

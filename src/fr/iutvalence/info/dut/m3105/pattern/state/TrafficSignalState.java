@@ -1,7 +1,7 @@
 package fr.iutvalence.info.dut.m3105.pattern.state;
 
 
-public abstract class TrafficSignalState
+public abstract class TrafficSignalState 
 {
 	protected final TrafficSignalContext context;
 	protected int durationInSeconds;
@@ -15,15 +15,13 @@ public abstract class TrafficSignalState
 		this.name = name;
 	}
 
-	public void buttonPressed() 
-	{
-		System.out.println("button pressed!");
+	public void buttonPressed() {
 	}
 
 	public void secondEllapsed() 
 	{
 		this.durationInSeconds--;
-		System.out.println(this.durationInSeconds);
+		this.context.notifyDurationTime(this.durationInSeconds);
 	}
 
 	public TrafficSignalStateName getName()

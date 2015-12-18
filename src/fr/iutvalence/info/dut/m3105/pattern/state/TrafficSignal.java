@@ -1,21 +1,49 @@
 package fr.iutvalence.info.dut.m3105.pattern.state;
 
+import java.util.LinkedList;
+import java.util.List;
+
+
 
 public class TrafficSignal extends Thread implements TrafficSignalContext, TrafficSignalUserInterface
 {
 	private TrafficSignalState state;
-
+	private List<ObserverInterface> observers = new LinkedList<>();
+	
 	@Override
 	public void setTrafficSignalState(TrafficSignalState state)
 	{
-		System.out.println("Traffic signal state is "+state.getName());
+		notifyState(state.getName());
 		this.state = state;		
+	}
+	
+	private void notifyState(TrafficSignalStateName name){
+		for (ObserverInterface observer : observers) {
+			observer.notifyState(name);
+		}
+	}
+	
+	@Override
+	public void notifyDurationTime(int durationInSeconds)
+	{
+		for (ObserverInterface observer : observers) {
+			observer.notifyTime(durationInSeconds);
+		}
 	}
 
 	@Override
 	public void pressButton()
 	{
+		notifyButtonPressed();
 		this.state.buttonPressed();
+	}
+	
+	private void notifyButtonPressed()
+	{
+		for (ObserverInterface observer : observers) {
+			observer.notifyButton();
+		}
+		
 	}
 	
 	public void run()
@@ -34,5 +62,14 @@ public class TrafficSignal extends Thread implements TrafficSignalContext, Traff
 			}
 		}
 	}
+
+	public void register(ObserverTraficSignal observerTraficSignal)
+	{
+		this.observers.add(observerTraficSignal);
+	}
+
+
+
+	
 	
 }
